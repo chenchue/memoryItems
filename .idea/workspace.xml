@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="30ad28fb-edc9-4aef-a7f2-91bc2d714f5f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/client/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/api/items.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/AddItemForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/constants/queryKeys.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2tJ3e7XMbigciywFXoq3pGnwGvw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/chenswissa/WebstormProjects/knowledge-base-app/client/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "/Users/chenswissa/Library/Application Support/JetBrains/WebStorm2024.3/node/versions/20.15.0/bin/node",
+    "nodejs_package_manager_path": "/Users/chenswissa/Library/Application Support/JetBrains/WebStorm2024.3/node/versions/20.15.0/lib/node_modules/npm/bin/npm-cli.js",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "ts.external.directory.path": "/Users/chenswissa/WebstormProjects/knowledge-base-app/client/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JavaScript"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src" />
+      <recent name="$PROJECT_DIR$/server/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/components" />
+      <recent name="$PROJECT_DIR$/client/src/constants" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-WS-243.24978.60" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30ad28fb-edc9-4aef-a7f2-91bc2d714f5f" name="Changes" comment="" />
+      <created>1740056442492</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740056442492</updated>
+      <workItem from="1740056443482" duration="1113000" />
+      <workItem from="1740057568133" duration="16415000" />
+      <workItem from="1745151817516" duration="52848000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/client/src/components/AddItemForm.tsx</url>
+          <line>45</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
