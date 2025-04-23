@@ -11,6 +11,8 @@
       <change afterPath="$PROJECT_DIR$/client/src/components/AddItemForm.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/constants/queryKeys.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client" beforeDir="false" afterPath="$PROJECT_DIR$/client" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
@@ -101,7 +103,7 @@
       <updated>1740056442492</updated>
       <workItem from="1740056443482" duration="1113000" />
       <workItem from="1740057568133" duration="16415000" />
-      <workItem from="1745151817516" duration="52848000" />
+      <workItem from="1745151817516" duration="55618000" />
     </task>
     <servers />
   </component>
