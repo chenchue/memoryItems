@@ -3,48 +3,27 @@ import { addItem, editItem, getAllItems } from './data/items';
 import cors from 'cors';
 import { validateBooleanQueryParam, validateNumberParam } from './middlewares/middlewares';
 import { Request, Response, NextFunction } from 'express';
+import itemsRouter from './routes';
 
 const app = express();
 const PORT = 3001;
+
+// MIDDLEWARES
 app.use(cors());
 app.use(express.json());
-// app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
-//   console.error('Unhandled error:', err.message);
-//   res.status(500).json({ error: 'Something went wrong' });
-// });
+
+// ROUTES
+app.use('/', itemsRouter);
 
 
-app.get('/', (req, res) => {
-  console.log('⚡ root route hit');
-  res.send('Server is running');
+// ERROR HANDLER
+app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
+  console.log(err);
+  console.error('Unhandled error:', err.message);
+  res.status(500).json({ error: 'Something went wrong' });
 });
 
-
-app.get('/items', (req, res) => {
-  res.json(getAllItems());
-});
-
-app.post('/items', (req, res) => {
-  try {
-    const newItem = addItem(req.body);
-    res.status(201).json(newItem);
-  } catch (error) {
-    res.status(400).json({ error: 'Invalid item data' });
-  }
-});
-
-app.patch('/item/:itemId', validateNumberParam('itemId'), validateBooleanQueryParam('isFavourite'), (req, res) => {
-  try {
-    const itemId = req.validatedNumber;
-    const isFavourite: boolean = req.validatedBoolean;
-    const newItem = editItem(itemId, isFavourite);
-    res.status(201).json(newItem);
-  } catch (error) {
-    res.status(400).json({ error: 'Invalid item data' });
-  }
-});
-
-
+// SERVER
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
