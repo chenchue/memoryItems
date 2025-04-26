@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30ad28fb-edc9-4aef-a7f2-91bc2d714f5f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/api/items.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/AddItemForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/ItemCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/constants/queryKeys.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client" beforeDir="false" afterPath="$PROJECT_DIR$/client" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/ItemCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ItemCard.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +117,7 @@
       <workItem from="1740056443482" duration="1113000" />
       <workItem from="1740057568133" duration="16415000" />
       <workItem from="1745151817516" duration="104530000" />
-      <workItem from="1745665633895" duration="3691000" />
+      <workItem from="1745665633895" duration="5991000" />
     </task>
     <servers />
   </component>
